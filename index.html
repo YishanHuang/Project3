@@ -15,6 +15,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Trade+Winds|Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+    
     
     <script src="js/registration.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -26,6 +28,8 @@
     </ol>-->
     <h1 class="page-header"><img src="https://raw.githubusercontent.com/YishanHuang/Project3/gh-pages/yelp.gif" width="120" height="60" alt="yelp"> Today!</h1>
 
+    
+    <h2 >Sign in</h2>
     <form method="post" action="/login" class="login">
 
       <div class="input-group input-group-lg">
@@ -42,11 +46,11 @@
         <button class="form-control" type="submit" class="login-button" style="border-radius: 8px">Login</button>
       </div>
 
-      <p class="forgot-password"><a href="/forgotpass">Forgot your password?</a></p>
-      <p class="forgot-password"><a href="/register">New User? Register Here.</a></p>
+      <p class="forgot-password">Forgot your password?</a></p>
+      <p class="forgot-password">New User? Register Here.</a></p>
     </form>
 
-    <h1 class="page-header">Register</h1>
+    <h2>Register</h2>
 
     <form id="reg-form" name="registrationform" action="/register" method="post">
       <div class="input-group input-group-lg">
@@ -99,6 +103,9 @@
     
       <div>
         <button id="facebook-button"><i aria-hidden="true" class="fa fa-facebook-square"></i> Log in with Facebook</button>
+      </div>
+      <div>
+        <button id="twitter-button"><i aria-hidden="true" class="fa fa-twitter-square"></i> Log in with Twitter</button>
       </div>
       <div>
         <button id="google-button"><i aria-hidden="true" class="fa fa-google-plus-square"></i> Log in with Google</button>
