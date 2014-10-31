@@ -43,10 +43,11 @@
       <p class="forgot-password">Forgot your password?</a></p>
       <p class="forgot-password">New User? Register Here.</a></p>
     </form>
-
-    <h2>Register</h2>
-
-    <form id="reg-form" name="registrationform" action="/register" method="post">
+   <div name = "checkbox" id="status"> <input type="checkbox" onclick="display('reg-form')"/>
+     New User? Register Here !  </div> 
+  
+    <form id="reg-form" name="registrationform" action="/register" method="post" style="display:none">
+      <h2>Register</h2>
       <div class="input-group input-group-lg">
         <span class="input-group-addon glyphicon glyphicon-envelope" id="envelope"></span>
         <input class="form-control" placeholder="Email" type="text" name="email" id="email" required>
