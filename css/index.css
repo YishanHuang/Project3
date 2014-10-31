@@ -1,17 +1,17 @@
 h1 { 
 	text-align: center;
 	color: white; 
-  
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 h2  {
   text-align: center;
 	color: white; 
-  
+  font-family: 'Trade Winds', cursive;
   }
 
 form {
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ form div button[type="submit"] {
 
 button {
   text-align: center;
-  border-radius: 3em;
+  border-radius: 1em; 
   text-shadow: 0px 0px 0px;
   width: 60%; 
   font-size: 1.2em;
@@ -50,6 +50,12 @@ button {
   background: rgb(59, 89, 152); 
   color: white;  
   border-color: rgb(59, 89, 152);
+}
+
+#twitter-button {
+  background: rgb(87, 172, 239); 
+  color: white;  
+  border-color: rgb(87, 172, 239);
 }
 
 #google-button {
