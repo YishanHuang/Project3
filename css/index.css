@@ -24,12 +24,10 @@ text-align: center;
 }
 
 p {
-  
   color: yellow;
   padding: 0 1em;
   width: 100%;
   font-size: 1.2em;
-
 }
 
 form div button[type="submit"] {
