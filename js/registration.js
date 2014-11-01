@@ -9,7 +9,7 @@ $(document).ready(function() {
         $('#envelope').addClass('default-iconCol');
 
 
-	var email = $('#email').val();
+/*	var email = $('#email').val();
 	var isStud = /\w+@hawk.iit.edu/.test(email);
 	var isStaff = /\w+@iit.edu/.test(email);
 	if(isStud){
@@ -27,6 +27,7 @@ $(document).ready(function() {
 	    $('#invalid').slideDown();
 	    $('#stud').slideUp();
 	}
+*/
 
     })
     $('#password').focus(function(e){
