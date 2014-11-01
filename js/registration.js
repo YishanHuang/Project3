@@ -8,27 +8,6 @@ $(document).ready(function() {
         $('#envelope').removeClass('blue-iconCol');
         $('#envelope').addClass('default-iconCol');
 
-
-/*	var email = $('#email').val();
-	var isStud = /\w+@hawk.iit.edu/.test(email);
-	var isStaff = /\w+@iit.edu/.test(email);
-	if(isStud){
-	    $('#stud').slideDown();
-	    $('#invalid').slideUp();
-	    $('#staff').slideUp();
-	}
-	else if(isStaff){
-	    $('#staff').slideDown();
-	    $('#invalid').slideUp();
-	    $('#stud').slideUp();
-	}
-	else{
-	    $('#staff').slideUp();
-	    $('#invalid').slideDown();
-	    $('#stud').slideUp();
-	}
-*/
-
     })
     $('#password').focus(function(e){
         $('#lock').removeClass('default-iconCol');
