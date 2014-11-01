@@ -44,8 +44,8 @@
       <p class="forgot-password">Forgot your password?</a></p>
     </form>
     
-   <div name = "checkbox" id="status"> <input type="checkbox" onclick="display('reg-form')"/>
-     New User? Register Here !  </div> 
+   <p><div name = "checkbox" id="status"> <input type="checkbox" onclick="display('reg-form')"/>
+     New User? Register Here !  </div> </p>
   
     <form id="reg-form" name="registrationform" action="/register" method="post" style="display:none">
       <h2>Register</h2>
@@ -56,10 +56,9 @@
       <div class="alert alert-success" id="stud" style="display: none">
 	     Email Confirmed.
       </div>
-      <!--<div class="alert alert-success" id="staff" style="display: none">
-    	Staff Email Confirmed.
+      <div class="alert alert-success" id="staff" style="display: none">
+    	     Email Confirmed.
       </div>
-      -->
       <div class="alert alert-danger" id="invalid" style="display: none">
 	    Invalid Email.
       </div>
